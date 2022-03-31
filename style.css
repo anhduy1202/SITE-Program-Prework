@@ -1,0 +1,189 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+:root {
+  /*Font weighht*/
+  --font-light: 400;
+  --font-mdbold: 500;
+  --font-bold: 600;
+  --font-xbold: 700;
+
+  /*color*/
+  --bg-color-darkmode: #3d405b;
+  --bg-color: #f4f1de;
+  --color-green: lightgreen;
+  --color-green-pressed:green;
+  --color-blue: lightblue;
+  --color-blue-pressed: blue;
+  --color-pink: pink;
+  --color-pink-pressed: red;
+  --color-yellow: #ffba08;
+  --color-yellow-pressed: yellow;
+  --color-purple: purple;
+  --color-purple-pressed: blue;
+  --color-grey: lightgrey;
+  --color-grey-pressed: black;
+
+  /* Border radius */
+  --border-rounded-md: 10px;
+  --border-rounded: 14px;
+
+  /* Font style */
+  --font-sm: 0.75rem;
+  --font-smd: 1rem;
+  --font-md: 1.15rem;
+  --font-lg: 1.25rem;
+  --font-xlg: 2.15rem;
+  --font-xxlg: 3.5rem;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 0rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+#startBtn {
+  background-color: #81b29a;
+}
+#stopBtn {
+  background-color: #b7094c;
+  color: white;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+.container {
+  background-color: var(--bg-color);
+  display:flex;
+  overflow-y:scroll;
+  justify-content:center;
+  align-items: center;
+  flex-wrap:wrap;
+  color: black;
+  margin:0;
+  padding:0;
+  height:100vh;
+  width:100%;
+  transition: background 300ms;
+
+}
+.heading-container{
+  display:flex;
+  align-items: center;
+}
+.text-container  {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+.dark {
+  color: white;
+  background-color: var(--bg-color-darkmode);
+}
+h1 {
+  color: #e07a5f;
+  margin: 0em 1em;
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  cursor:pointer;
+  padding: 1em;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--border-rounded-md);
+}
+
+#gameButtonArea {
+  text-align:center;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+.hide {
+  display:none;
+}
+#button1 {
+    background: var(--color-green);
+}
+#button1:active, #button1.lit {
+    background: var(--color-green-pressed);
+}
+#button2 {
+  background: var(--color-blue);
+}
+#button2:active, #button2.lit {
+    background: var(--color-blue-pressed);
+}
+#button3 {
+  background: var(--color-pink);
+}
+#button3:active, #button3.lit {
+    background: var(--color-pink-pressed);
+}
+#button4 {
+  background: var(--color-yellow);
+}
+#button4:active, #button4.lit {
+    background: var(--color-yellow-pressed);
+}
+#button5 {
+  background: var(--color-purple);
+}
+#button5:active, #button5.lit {
+    background: var(--color-purple-pressed);
+}
+#button6 {
+  background: var(--color-grey);
+}
+#button6:active, #button6.lit {
+    background: var(--color-grey=-pressed);
+}
+#clock-label {
+  font-size: var(--font-lg);
+}
+#dark-icon {
+  cursor:pointer;
+  width: 32px;
+  height: 32px;
+ color: yellow;
+}
+
+#buttonDropdown, option {
+  margin: 0em 0.5em;
+  font-size:var(--font-md);
+}
+#score-label {
+  display:flex;
+  gap:1em;
+  font-size: var(--font-md);
+}
+#score {
+  color: orange;
+}
+#health {
+  color: orange;
+}
