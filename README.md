@@ -37,6 +37,7 @@ The following 2 features are implemented:
 - [x] Adding darkmode/lightmode for the game
 - [x] Having a dropdown menu so user can select number of buttons  
 - [x] Keeping track of user's score and reset it to 0 when user loses/done
+- [x] Keeping track of user's health so they know how many chances they have left 
 
 ## Video Walkthrough (GIF)
 
