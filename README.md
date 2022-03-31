@@ -4,7 +4,7 @@
 
 Submitted by: Daniel Truong (Quoc Truong)
 
-Time spent: **10** hours spent in total
+Time spent: **11** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/boundless-fuzzy-grade
 
@@ -32,7 +32,7 @@ The following 6 features are implemented:
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [x] User has a limited amount of time to enter their guess on each turn
 
-The following 2 features are implemented:
+The following 4 features are implemented:
 
 - [x] Adding darkmode/lightmode for the game
 - [x] Having a dropdown menu so user can select number of buttons  
