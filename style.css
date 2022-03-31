@@ -71,6 +71,7 @@ video {
   background-color: var(--bg-color);
   display:flex;
   overflow-y:scroll;
+  flex-direction: column;
   justify-content:center;
   align-items: center;
   flex-wrap:wrap;
@@ -104,7 +105,7 @@ h1 {
 button {
   cursor:pointer;
   padding: 1em;
-  margin: 0;
+  margin: 1em 0;
   text-decoration: none;
   border: none;
   border-radius: var(--border-rounded-md);
