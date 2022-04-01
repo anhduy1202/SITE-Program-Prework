@@ -43,11 +43,15 @@ The following 4 features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ### Darkmode/Lightmode
-![](https://im5.ezgif.com/tmp/ezgif-5-192c222fcb.gif)
+https://user-images.githubusercontent.com/58461444/161172189-efbc56f0-6c73-4ccf-9ca0-b4633f3d1cbc.mov
+
+
 ### Lose Game
-![](https://im5.ezgif.com/tmp/ezgif-5-b0c125c2e1.gif)
+https://user-images.githubusercontent.com/58461444/161172121-705a1f25-e733-478b-a8d7-0c9782ac6ea5.mov
+
+
 ### Win Game
-![](https://im5.ezgif.com/tmp/ezgif-5-5023d618ab.gif)
+https://user-images.githubusercontent.com/58461444/161171909-29f46ecc-b00f-405e-bc5a-89c875cfce44.mov
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
