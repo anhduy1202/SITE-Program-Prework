@@ -60,7 +60,7 @@ I only used https://www.w3schools.com to review some JavaScript syntax
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-A challenge that I encountered during this pre-work is proably the timer feature since there're many edge cases that I need to handle during the proces of making it as well as the core functionality of this feature, some of it was:
+A challenge that I encountered during this pre-work is probably the timer feature since there're many edge cases that I need to handle during the proces of making it as well as the core functionality of this feature, some of it was:
 * Deciding when to use clearInterval(), setInterval() : The main problem I was having with this is after every rounds, setInterval() seems to be stacked up along in the event loop such that it makes the timer goes faster after each rounds. I managed to research on w3School and found out that setInterval() will return an interval ID such that I can use that ID in order to use the clearInterval() accurately
 * Handling every possible edge cases: During the proces of completing this feature, after each testing I run, there'll always be edge cases that made the timer become inaccurate, some of those edge cases are: timer should reset when user win/lose game, timer should NOT reset when user pause the game, timer should stop when it reaches 0, user should lose the game when timer reaches 0. I overcome this by carefully list out every edge cases that I initially can think of before debugging and after I finished with my list then I can started to test out other feature and if another edge cases of the timer appear, I'll handle it right away.
  
